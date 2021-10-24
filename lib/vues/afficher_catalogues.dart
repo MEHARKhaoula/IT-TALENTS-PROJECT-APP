@@ -74,20 +74,12 @@ class _afficher_cataloguesState extends State<afficher_catalogues> {
                     FadeAnimation(1.3, Container(
                       padding: EdgeInsets.symmetric(vertical: 3),
                       margin: EdgeInsets.symmetric(horizontal: 40),
-                      height: 50,
+
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(50),
-                        color: Colors.white,
+
                       ),
-                      child: TextField(
-                        decoration: InputDecoration(
-                            border: InputBorder.none,
-                            prefixIcon: Icon(Icons.search, color: Colors.grey,),
-                            hintStyle: TextStyle(
-                                color: Colors.grey, fontSize: 15),
-                            hintText: "Recherchez votre formation"
-                        ),
-                      ),
+                      child: Container(),
                     )),
                     SizedBox(height: 30,)
                   ],

@@ -76,9 +76,7 @@ class _afficher_formationsState extends State<afficher_formations> {
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.transparent,
                       ),
-                      child: TextField(
-
-                      ),
+                      child: Container(),
                     )),
                     SizedBox(height: 30,)
                   ],

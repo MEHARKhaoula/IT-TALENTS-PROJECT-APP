@@ -39,9 +39,8 @@ class _PartenariatForm extends State<PartenariatForm> {
           mainAxisAlignment: MainAxisAlignment.start,
           mainAxisSize: MainAxisSize.max,
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
+            Stack(
+          alignment: Alignment.topLeft,
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 24,
@@ -64,9 +63,12 @@ class _PartenariatForm extends State<PartenariatForm> {
                   child: Column(
 
                       children: [
-                        SizedBox(height:24.0),
-                        Image.asset('images/partener.jpg',
-                            height: 220
+                        SizedBox(height:50.0),
+                        Container(
+                          width:double.infinity,
+                          child: Image.asset('images/partener.jpg',
+                              height: 220
+                          ),
                         ),]
                   ),
                 ),

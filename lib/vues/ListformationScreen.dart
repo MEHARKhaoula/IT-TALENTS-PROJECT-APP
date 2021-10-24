@@ -78,7 +78,7 @@ class _ListformationScreenState extends State<ListformationScreen> {
                             borderRadius: BorderRadius.circular(50),
                             color: Colors.transparent,
                           ),
-                          child: TextField(
+                          child: Container(
 
                           ),
                         )),
